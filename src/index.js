@@ -1,8 +1,6 @@
 // You should implement your task here.
 
 module.exports = function towelSort(matrix) {
-
-    console.log("in array:")
     if (!Array.isArray(matrix) || matrix.length == 0) return [];
 
     let result = [];
